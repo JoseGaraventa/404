@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+
+    background: linear-gradient(to right, #8aedf6, #7ce2f8, #74d5f8, #74c9f6, #79bbf2, #79b4f0, #7badee, #7ea6eb, #78a5ee, #70a4f0, #69a3f3, #60a2f5);
+
+}
+
+.container {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.heading {
+
+    color: #ffe100;
+    font-size: 15rem;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.sub-heading {
+
+    color: #ffe105;
+    font-weight: bold;
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+article {
+
+    width: 800%;
+    color: #ffe100;
+    text-align: center;
+    margin-bottom: 1rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
+
+.btn {
+
+    cursor: pointer;
+    margin: 0 0.5rem;
+    font-weight: bold;
+    padding: 1rem 2rem;
+    border-radius: 5rem;
+    text-transform: uppercase;
+    transition: all 0.3s linear;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border: 3px solid #000;
+
+}
+
+
+.btn:hover {
+
+    color: #ffe110;
+    background-color: rgb(7, 110, 245);
+    border: 1px sold rgb(7, 110, 245);
+
+}
+
+.active {
+
+    color: rgb(204, 183, 88);
+    background-color: rgb(107, 145, 196);
+  
+}
+
+
+.active:hover {
+
+    color: yellow;
+    background-color: #6da7f3;
+    border: 3px solid #000;
+
+}
+
+a {
+
+    text-decoration: none;
+
+}
+
+@media screen and (max-width:430px) {
+    .heading {
+        font-size: 10rem;
+    }
+    .buttons {
+        display: flex;
+        gap: 1.2rem;
+        flex-direction: column;
+    }
+}
+
+
